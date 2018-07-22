@@ -13,7 +13,7 @@ class Solver_8_queens:
     __addition_size = 8 - __code_size
     __full_code_size = int(__code_size * __board_size)
 
-    def __init__(self, pop_size=20, cross_prob=1.0, mut_prob=1.0):
+    def __init__(self, pop_size=30, cross_prob=1.0, mut_prob=1.0):
         self.__pop_size = pop_size
         self.__cross_prob = cross_prob
         self.__mut_prob = mut_prob
